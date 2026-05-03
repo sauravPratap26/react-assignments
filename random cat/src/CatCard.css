@@ -1,0 +1,69 @@
+.cat-card {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 18px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.cat-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.cat-title {
+  margin: 12px 0 6px;
+  font-size: 22px;
+}
+
+.cat-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.cat-desc {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.cat-section {
+  margin-top: 12px;
+}
+
+.cat-section h3 {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.traits {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.traits li {
+  padding: 4px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.cat-link {
+  margin-top: 12px;
+}
+
+.cat-link a {
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: bold;
+}
+
+.cat-link a:hover {
+  text-decoration: underline;
+}
