@@ -1,0 +1,69 @@
+.meal-card {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.meal-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.meal-title {
+  margin: 15px 0 5px;
+  font-size: 22px;
+  color: black;
+}
+
+.meal-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.meal-section {
+  margin-top: 15px;
+}
+
+.meal-section h3 {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.meal-section ul {
+  padding-left: 18px;
+}
+
+.meal-section li {
+  margin-bottom: 4px;
+}
+
+.meal-section p {
+  line-height: 1.5;
+  font-size: 14px;
+  color: #333;
+}
+
+.meal-links {
+  margin-top: 15px;
+  display: flex;
+  gap: 15px;
+}
+
+.meal-links a {
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: bold;
+}
+
+.meal-links a:hover {
+  text-decoration: underline;
+}
