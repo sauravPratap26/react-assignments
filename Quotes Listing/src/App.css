@@ -1,0 +1,84 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Layout */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  gap: 10px;
+  padding: 15px;
+  background: #1e293b;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.navbar input {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  width: 180px;
+}
+
+.navbar button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #3b82f6;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.navbar button:hover {
+  background: #2563eb;
+}
+
+.navbar button:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+}
+
+/* MAIN */
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* CENTER STATES */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  font-size: 18px;
+  color: #555;
+}
+
+/* QUOTE LIST */
+.quote-list {
+  display: grid;
+  gap: 16px;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* FOOTER */
+.footer {
+  background: #1e293b;
+  color: white;
+  text-align: center;
+  padding: 12px;
+}

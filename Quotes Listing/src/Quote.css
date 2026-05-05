@@ -1,0 +1,39 @@
+.quote-card {
+  background: #f8fafc;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: 0.2s;
+}
+
+.quote-card:hover {
+  transform: translateY(-3px);
+}
+
+/* Quote text */
+.quote-content {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #1e293b;
+}
+
+/* Author */
+.quote-author {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #334155;
+}
+
+/* Tags */
+.quote-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tag {
+  background: #e2e8f0;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+}
