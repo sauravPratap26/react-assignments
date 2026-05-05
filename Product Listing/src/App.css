@@ -1,0 +1,91 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ROOT */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #1b120d;
+  color: #f5e6dc;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* NAVBAR */
+.app-navbar {
+  display: flex;
+  gap: 12px;
+  padding: 16px;
+  background: #2d1b14;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #5c3b2e;
+}
+
+.app-navbar input {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  background: #f5e6dc;
+  color: #2d1b14;
+  width: 180px;
+}
+
+.app-navbar button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #7a4e3a;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.app-navbar button:hover {
+  background: #a06a4f;
+}
+
+.app-navbar button:disabled {
+  background: #5c3b2e;
+  cursor: not-allowed;
+}
+
+/* MAIN */
+.app-main {
+  flex: 1;
+  padding: 24px;
+}
+
+/* CENTER STATES */
+.app-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  font-size: 18px;
+  color: #d6b8a8;
+}
+
+/* GRID */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* FOOTER */
+.app-footer {
+  background: #2d1b14;
+  text-align: center;
+  padding: 14px;
+  border-top: 1px solid #5c3b2e;
+  color: #c8a58b;
+}
