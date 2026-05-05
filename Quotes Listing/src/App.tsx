@@ -57,7 +57,6 @@ function App() {
 
         setQuotes(data.data.data);
 
-        console.log(data.data.data);
       } catch (error) {
         if (error instanceof Error && error.name === "AbortError") {
           console.log("Request was Aborted");
@@ -75,7 +74,6 @@ function App() {
   }, [displayConfig.query, displayConfig.limit, displayConfig.page]);
 
   const handleQueryAndLimit = (e: React.ChangeEvent<HTMLInputElement>) => {
-    console.log(e?.target.name, e?.target.value);
     setDebounceValue((previous) => ({
       ...previous,
       [e.target.name]: e.target.value,
