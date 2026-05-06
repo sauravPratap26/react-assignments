@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+form {
+  width: 300px;
+}
+
+fieldset {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
