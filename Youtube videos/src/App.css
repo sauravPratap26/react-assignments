@@ -1,0 +1,93 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ROOT */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.app-navbar {
+  display: flex;
+  gap: 12px;
+  padding: 14px 20px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.app-navbar input {
+  padding: 8px 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+  width: 200px;
+}
+
+.app-navbar input:focus {
+  border-color: #065fd4;
+}
+
+.app-navbar button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 20px;
+  background: #065fd4;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.app-navbar button:hover {
+  background: #0b57c4;
+}
+
+.app-navbar button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+/* MAIN */
+.app-main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* GRID */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* CENTER STATES */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  font-size: 18px;
+  color: #555;
+}
+
+/* FOOTER */
+.app-footer {
+  background: white;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  padding: 12px;
+  font-size: 14px;
+  color: #606060;
+}
